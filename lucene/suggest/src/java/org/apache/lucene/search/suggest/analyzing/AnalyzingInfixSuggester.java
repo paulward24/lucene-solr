@@ -382,7 +382,7 @@ public class AnalyzingInfixSuggester extends Lookup implements Closeable {
         searcherMgr = new SearcherManager(writer, null);
         if (oldSearcherMgr != null) {
           oldSearcherMgr.close();
-        }  lala
+        }
       }
     }
   }
